@@ -1,0 +1,14 @@
+.navbar{
+    background-color:  $color-main-3;
+    min-height: 50px;
+    &-inner{
+        @include maxWidth;
+        padding-top: 0.5rem;
+        h3{
+            font-style: italic;
+            text-align: center;
+            text-transform: uppercase;
+            color: $color-white;
+        }
+    }
+}
